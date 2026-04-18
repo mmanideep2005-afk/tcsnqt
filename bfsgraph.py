@@ -11,10 +11,10 @@ def bfs(graph,start):
                 visited.add(nieghbour)
                 queue.append(nieghbour)
 graph = {
-        'A' : ['B','C'],
-        'B' : ['D'],
-        'C' : ['D'],
-        'D' : []
+    'A' : ['B','C'],
+    'B' : ['D'],
+    'C' : ['D'],
+    'D' : []
     }
 bfs(graph,'A')
 
